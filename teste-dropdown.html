@@ -1,25 +1,34 @@
 <html>
-<head>
-	<link rel="stylesheet" href="dropdown.css">
-	<meta charset="utf-8">
-</head>
-<body>
-	<div class="dropdown-horizontal">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content-horizontal">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <div class="dropdown-vertical">  
-  		<button class="dropbtn">O que fazemos</button> 
-    	<div class="dropdown-content-vertical"> 
-      		<a href="#">Web Design</a> 
-      		<a href="#">Hospedagem</a> 
-      		<a href="#">SEO</a> 
-      		<a href="#">Sistemas</a> 
-    	</div> 
-	</div>
-  </div>
-</div> 	
-</body>
+	<head>
+		<link rel="stylesheet" href="dropdown.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!--Criando um dropdown horizontal-->
+		<div class="dropdown-horizontal">
+			<!--Criando o botão do dropdown-->
+  			<button class="dropbtn">Dropdown</button>
+  			<!--Criando os subitens do menu horizontal-->
+ 			<div class="dropdown-content-horizontal">
+ 				<!--subitem um-->
+    				<a href="#">Link 1</a>
+    				<!--subitem dois-->
+    				<a href="#">Link 2</a>
+    				<!--Criando um dropdown vertical como item de um dropdown horizontal-->
+    				<div class="dropdown-vertical">  
+    					<!--Criando botão do dropdown vertical-->
+  					<button class="dropbtn">Link 3</button>
+  					<!--Criando os subitens do menu vertical--> 
+	    				<div class="dropdown-content-vertical"> 
+	    					<!--Criando items do menu vertical-->
+			      		<a href="#">Sub Link 1</a> 
+			      		<a href="#">Sub Link 2</a> 
+			      		<a href="#">Sub Link 3</a> 
+			      		<a href="#">Sub Link 4</a> 
+	    				</div> 
+				</div>
+  			</div>
+		</div> 	
+	</body>
 
 </html>
