@@ -10,6 +10,8 @@ a, .dropbtn{
     color: white;
     padding: 16px;
     font-size: 16px;
+    width: 100%;
+    text-align: left;
     border: none;
     cursor: pointer;
 }
@@ -70,7 +72,7 @@ tanto do dropdown vertical quanto do horizontal*/
 /*Quando passar o mouse por cima de uma opção de qualquer um dos tipos de menus, o submenu aparecerá, 
 pois o display que estava como none(none não aparece) ficará setado como block, fazendo com que os 
 itens surjam e fiquem um em baixo do outro*/
-.dropdown-vertical:hover .dropdown-content-vertical, .dropdown-horizontal:hover .dropdown-content-horizontal {
+.dropdown-vertical:hover > .dropdown-content-vertical, .dropdown-horizontal:hover > .dropdown-content-horizontal {
     display: block;
 }
 
